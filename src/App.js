@@ -1,9 +1,14 @@
 import React from 'react';
+import Navbar from './components/Navbar';
+import GlobalStyle from './globalStyle';
+import Hero from './components/Hero';
 
 function App() {
     return (
         <>
-            <h1>wass</h1>
+            <GlobalStyle />
+            <Navbar />
+            <Hero />
         </>
     );
 }
