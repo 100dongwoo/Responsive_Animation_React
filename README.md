@@ -8,7 +8,9 @@
 ![CommentStructure](./studyPic/primary.png)
 - GlobalStyle 하는방법
 ![CommentStructure](./studyPic/Global.png)
-
+- styled 컴포넌트에서 참고할 내용 조건
+![CommentStructure](./studyPic/use....png)
+- ... 사용법 export가 많은 곳에서 이런식으로 사용시 전부다 불러와짐
 
 
 ## 찾아볼것 
@@ -16,3 +18,6 @@
 - timeout.current
 - clearTimeout()
 - useRef
+- calc ->ex) padding: 3rem calc((100vw - 1300px));
+- order
+- clamp
