@@ -8,3 +8,11 @@
 ![CommentStructure](./studyPic/primary.png)
 - GlobalStyle 하는방법
 ![CommentStructure](./studyPic/Global.png)
+
+
+
+## 찾아볼것 
+- css : before
+- timeout.current
+- clearTimeout()
+- useRef
