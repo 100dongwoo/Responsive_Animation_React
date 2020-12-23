@@ -63,11 +63,11 @@ const NavBtn = styled.div`
         display: none;
     }
 `;
-function Navbar(props) {
+function Navbar({ toggle }) {
     return (
         <Nav>
             <Logo to="/">ELIXR</Logo>
-            <MenuBars />
+            <MenuBars onClick={toggle} />
             <NavMenu>
                 {menuData.map((items, index) => (
                     <NavMenuLinks to={items.link} key={index}>
