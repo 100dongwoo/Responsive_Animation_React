@@ -1,7 +1,11 @@
 import React from 'react';
 
 function App() {
-    return <div className="App">asdsa</div>;
+    return (
+        <>
+            <h1>wass</h1>
+        </>
+    );
 }
 
 export default App;
